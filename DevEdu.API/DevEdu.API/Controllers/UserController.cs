@@ -50,5 +50,12 @@ namespace DevEdu.API.Controllers
         {
             return 42;
         }
+
+        // api/user/{userId}/role/{roleId}
+        [HttpDelete("{userId}/role/{roleId}")]
+        public int DeleteRoleToUser(int userId, int roleId)
+        {
+            return 42;
+        }
     }
 }
